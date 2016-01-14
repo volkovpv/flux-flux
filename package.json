@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "тестовое задание 2014 года.",
   "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovpv/flax-flax.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "volkov_p_v@mail.ru",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volkovpv/flax-flax/issues"
+  },
+  "homepage": "https://github.com/volkovpv/flax-flax#readme",
   "devDependencies": {
     "connect": "^3.0.0",
     "gulp": "^3.8.8",
@@ -20,6 +28,7 @@
     "gulp-minify-html": "^0.1.5",
     "gulp-order": "^1.1.1",
     "gulp-rename": "^1.2.0",
+    "gulp-sequence": "^0.4.4",
     "gulp-uglify": "^1.0.1",
     "gulp-uncss": "^0.4.5",
     "gulp-util": "^3.0.1",
